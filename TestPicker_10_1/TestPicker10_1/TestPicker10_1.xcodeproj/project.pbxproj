@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F310808F2260630C0001026E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310808E2260630C0001026E /* AppDelegate.swift */; };
+		F31080912260630C0001026E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31080902260630C0001026E /* ViewController.swift */; };
+		F31080942260630C0001026E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31080922260630C0001026E /* Main.storyboard */; };
+		F3108096226063110001026E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3108095226063110001026E /* Assets.xcassets */; };
+		F3108099226063110001026E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3108097226063110001026E /* LaunchScreen.storyboard */; };
+		F310809E226063110001026E /* TestPicker10_1 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F310809D226063110001026E /* TestPicker10_1 WatchKit App.app */; };
+		F31080A4226063110001026E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31080A2226063110001026E /* Interface.storyboard */; };
+		F31080A6226063120001026E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31080A5226063120001026E /* Assets.xcassets */; };
+		F31080AD226063120001026E /* TestPicker10_1 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F31080AC226063120001026E /* TestPicker10_1 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F31080B2226063120001026E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31080B1226063120001026E /* InterfaceController.swift */; };
+		F31080B4226063120001026E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31080B3226063120001026E /* ExtensionDelegate.swift */; };
+		F31080B6226063120001026E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31080B5226063120001026E /* NotificationController.swift */; };
+		F31080B8226063140001026E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31080B7226063140001026E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F310809F226063110001026E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F31080832260630C0001026E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F310809C226063110001026E;
+			remoteInfo = "TestPicker10_1 WatchKit App";
+		};
+		F31080AE226063120001026E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F31080832260630C0001026E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31080AB226063120001026E;
+			remoteInfo = "TestPicker10_1 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F31080C0226063140001026E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F31080AD226063120001026E /* TestPicker10_1 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31080C4226063140001026E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F310809E226063110001026E /* TestPicker10_1 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F310808B2260630C0001026E /* TestPicker10_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPicker10_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F310808E2260630C0001026E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F31080902260630C0001026E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F31080932260630C0001026E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3108095226063110001026E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3108098226063110001026E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F310809A226063110001026E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F310809D226063110001026E /* TestPicker10_1 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestPicker10_1 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31080A3226063110001026E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F31080A5226063120001026E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F31080A7226063120001026E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31080AC226063120001026E /* TestPicker10_1 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TestPicker10_1 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31080B1226063120001026E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F31080B3226063120001026E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F31080B5226063120001026E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F31080B7226063140001026E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F31080B9226063140001026E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31080BA226063140001026E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F31080882260630C0001026E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31080A9226063120001026E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F31080822260630C0001026E = {
+			isa = PBXGroup;
+			children = (
+				F310808D2260630C0001026E /* TestPicker10_1 */,
+				F31080A1226063110001026E /* TestPicker10_1 WatchKit App */,
+				F31080B0226063120001026E /* TestPicker10_1 WatchKit Extension */,
+				F310808C2260630C0001026E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F310808C2260630C0001026E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F310808B2260630C0001026E /* TestPicker10_1.app */,
+				F310809D226063110001026E /* TestPicker10_1 WatchKit App.app */,
+				F31080AC226063120001026E /* TestPicker10_1 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F310808D2260630C0001026E /* TestPicker10_1 */ = {
+			isa = PBXGroup;
+			children = (
+				F310808E2260630C0001026E /* AppDelegate.swift */,
+				F31080902260630C0001026E /* ViewController.swift */,
+				F31080922260630C0001026E /* Main.storyboard */,
+				F3108095226063110001026E /* Assets.xcassets */,
+				F3108097226063110001026E /* LaunchScreen.storyboard */,
+				F310809A226063110001026E /* Info.plist */,
+			);
+			path = TestPicker10_1;
+			sourceTree = "<group>";
+		};
+		F31080A1226063110001026E /* TestPicker10_1 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F31080A2226063110001026E /* Interface.storyboard */,
+				F31080A5226063120001026E /* Assets.xcassets */,
+				F31080A7226063120001026E /* Info.plist */,
+			);
+			path = "TestPicker10_1 WatchKit App";
+			sourceTree = "<group>";
+		};
+		F31080B0226063120001026E /* TestPicker10_1 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F31080B1226063120001026E /* InterfaceController.swift */,
+				F31080B3226063120001026E /* ExtensionDelegate.swift */,
+				F31080B5226063120001026E /* NotificationController.swift */,
+				F31080B7226063140001026E /* Assets.xcassets */,
+				F31080B9226063140001026E /* Info.plist */,
+				F31080BA226063140001026E /* PushNotificationPayload.apns */,
+			);
+			path = "TestPicker10_1 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F310808A2260630C0001026E /* TestPicker10_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31080C5226063140001026E /* Build configuration list for PBXNativeTarget "TestPicker10_1" */;
+			buildPhases = (
+				F31080872260630C0001026E /* Sources */,
+				F31080882260630C0001026E /* Frameworks */,
+				F31080892260630C0001026E /* Resources */,
+				F31080C4226063140001026E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31080A0226063110001026E /* PBXTargetDependency */,
+			);
+			name = TestPicker10_1;
+			productName = TestPicker10_1;
+			productReference = F310808B2260630C0001026E /* TestPicker10_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F310809C226063110001026E /* TestPicker10_1 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31080C1226063140001026E /* Build configuration list for PBXNativeTarget "TestPicker10_1 WatchKit App" */;
+			buildPhases = (
+				F310809B226063110001026E /* Resources */,
+				F31080C0226063140001026E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31080AF226063120001026E /* PBXTargetDependency */,
+			);
+			name = "TestPicker10_1 WatchKit App";
+			productName = "TestPicker10_1 WatchKit App";
+			productReference = F310809D226063110001026E /* TestPicker10_1 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F31080AB226063120001026E /* TestPicker10_1 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31080BD226063140001026E /* Build configuration list for PBXNativeTarget "TestPicker10_1 WatchKit Extension" */;
+			buildPhases = (
+				F31080A8226063120001026E /* Sources */,
+				F31080A9226063120001026E /* Frameworks */,
+				F31080AA226063120001026E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestPicker10_1 WatchKit Extension";
+			productName = "TestPicker10_1 WatchKit Extension";
+			productReference = F31080AC226063120001026E /* TestPicker10_1 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F31080832260630C0001026E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Klue Inc.";
+				TargetAttributes = {
+					F310808A2260630C0001026E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F310809C226063110001026E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F31080AB226063120001026E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F31080862260630C0001026E /* Build configuration list for PBXProject "TestPicker10_1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F31080822260630C0001026E;
+			productRefGroup = F310808C2260630C0001026E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F310808A2260630C0001026E /* TestPicker10_1 */,
+				F310809C226063110001026E /* TestPicker10_1 WatchKit App */,
+				F31080AB226063120001026E /* TestPicker10_1 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F31080892260630C0001026E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3108099226063110001026E /* LaunchScreen.storyboard in Resources */,
+				F3108096226063110001026E /* Assets.xcassets in Resources */,
+				F31080942260630C0001026E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F310809B226063110001026E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31080A6226063120001026E /* Assets.xcassets in Resources */,
+				F31080A4226063110001026E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31080AA226063120001026E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31080B8226063140001026E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F31080872260630C0001026E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31080912260630C0001026E /* ViewController.swift in Sources */,
+				F310808F2260630C0001026E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31080A8226063120001026E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31080B6226063120001026E /* NotificationController.swift in Sources */,
+				F31080B4226063120001026E /* ExtensionDelegate.swift in Sources */,
+				F31080B2226063120001026E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F31080A0226063110001026E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F310809C226063110001026E /* TestPicker10_1 WatchKit App */;
+			targetProxy = F310809F226063110001026E /* PBXContainerItemProxy */;
+		};
+		F31080AF226063120001026E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F31080AB226063120001026E /* TestPicker10_1 WatchKit Extension */;
+			targetProxy = F31080AE226063120001026E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F31080922260630C0001026E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F31080932260630C0001026E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3108097226063110001026E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3108098226063110001026E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F31080A2226063110001026E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F31080A3226063110001026E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F31080BB226063140001026E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F31080BC226063140001026E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F31080BE226063140001026E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAZW24L6HU;
+				INFOPLIST_FILE = "TestPicker10_1 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goklue.TestPicker10-1.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		F31080BF226063140001026E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAZW24L6HU;
+				INFOPLIST_FILE = "TestPicker10_1 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goklue.TestPicker10-1.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		F31080C2226063140001026E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAZW24L6HU;
+				IBSC_MODULE = TestPicker10_1_WatchKit_Extension;
+				INFOPLIST_FILE = "TestPicker10_1 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goklue.TestPicker10-1.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		F31080C3226063140001026E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAZW24L6HU;
+				IBSC_MODULE = TestPicker10_1_WatchKit_Extension;
+				INFOPLIST_FILE = "TestPicker10_1 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goklue.TestPicker10-1.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		F31080C6226063140001026E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAZW24L6HU;
+				INFOPLIST_FILE = TestPicker10_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goklue.TestPicker10-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F31080C7226063140001026E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAZW24L6HU;
+				INFOPLIST_FILE = TestPicker10_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goklue.TestPicker10-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F31080862260630C0001026E /* Build configuration list for PBXProject "TestPicker10_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31080BB226063140001026E /* Debug */,
+				F31080BC226063140001026E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31080BD226063140001026E /* Build configuration list for PBXNativeTarget "TestPicker10_1 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31080BE226063140001026E /* Debug */,
+				F31080BF226063140001026E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31080C1226063140001026E /* Build configuration list for PBXNativeTarget "TestPicker10_1 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31080C2226063140001026E /* Debug */,
+				F31080C3226063140001026E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31080C5226063140001026E /* Build configuration list for PBXNativeTarget "TestPicker10_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31080C6226063140001026E /* Debug */,
+				F31080C7226063140001026E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F31080832260630C0001026E /* Project object */;
+}
