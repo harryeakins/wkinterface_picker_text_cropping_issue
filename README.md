@@ -5,6 +5,7 @@ This repo contains 4 projects, which are the default "iOS app with WatchKit app"
 
 
 This is what the cropped text looks like:
+
 ![WKInterfacePicker issue](https://i.imgur.com/0zrD0Ah.png)
 
 Here's what WKInterfacePicker looked like before watchOS5.0:
